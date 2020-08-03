@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <title>Halloween Store</title>
+    <link rel = "shortcut icon" href = "images/computer.png">
+    <link rel="stylesheet" href="images/normalize.css">
+    <link rel="stylesheet" href="comp.css"> 
+    
+    
+    <header>
+    <img src="images/icons8-system-information-64.png" id="logo">
+    <h1>Computer Science</h1>
+    <h3>For the little nerd in all of us!</h3>
+
+</header>
+    
+	<meta charset="utf-8">
+    <title>Complete a Form</title>
+    <style>
+    	* {
+    		margin: 0;
+    		padding: 0;
+    	}
+		body {
+			font: 87.5% Arial, Helvetica, sans-serif;
+			width: 800px;
+		    margin: 20px auto;
+		    padding: 20px;
+		    border: 2px solid blue;
+		}
+		h1 {
+			color: blue; 
+			font-size: 140%;
+		}
+		h2 {
+			font-size: 115%;
+			padding: .5em 0;
+		}
+		label {
+			color: blue;
+			float: left;
+			width: 8em;
+			font-weight: bold;
+			text-align: left;
+		}
+		input {
+			width: 15em;
+			margin: 0 0 .5em 1em;
+		}
+		#button, #reset {
+			width: 7em;
+			background-color: silver;
+			box-shadow: 2px 2px 0 blue; }
+		#button {
+			margin-left: 9em;
+		}
+        #autoalign{
+            width:auto;
+            float:left;
+        }
+        .clear{
+            clear:both;
+        }
+        
+        #com {
+            text-align: left;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+    </style>
+    
+
+<body>
+    
+       <div class="topnav">
+  <a class="active" href="project.html">Home</a>
+  <a href="calc.html">GPA Calculator</a>
+  <a href="ta.html">TA Application</a>
+  <a href="#email">Join Email</a>
+</div>
+    
+<h1>Please complete the application</h1>
+<form name="myform" action="survey_data.html" method="GET">
+	
+	<h2>Contact information</h2>
+	<label for="email">Email address:</label>
+    <input type="email" name="email" id="email"><br>
+    <label for="firstname">First name:</label>
+    <input type="text" name="firstname" id="firstname"><br>
+    <label for="lastname">Last name:</label>
+    <input type="text" name="lastname" id="lastname"><br>
+    
+    <!--Geographic Information details-->
+    <h2>General Information</h2>
+    <label for "id">ID:</label>
+    <input type = "id" name="ID" id="id" placeholder="Eight characters" maxlength=8 pattern="[A-Za-z]{8}"><br>
+    <label for= "gpa">GPA:</label>
+    <input type="gpa" name="GPA" id="gpa" placeholder="Five digits" maxlength="5" pattern="\d{5}"><br>
+    <label for= "gender">Gender:</label>
+    <input type="gender" name="Gender" id="gen" placeholder="Six characters" maxlength="6" pattern="[A-Za-z]{6}"><br>
+    <label for= "Date">Submission Date:</label>
+    <input type="date" name="Date" id="date" placeholder="Six digits" maxlength="6" pattern="\d{6}"><br>
+    <label for "Comments" >Comments:</label>
+    <input type = "comment" name="Comments" id="com" placeholder="One hundred twenty characters" maxlength=120 pattern="[A-Za-z]{120}"><br>
+    
+    
+    <!-- How did you hear about us details -->
+   <h2>How did you hear about us?</h2>
+   <label for="websearch">Web Search:</label>
+   <div><input type="checkbox" class="checkbox" id="autoalign" name="Web Search"></div>
+   <div class="clear"></div>
+  
+   <label for="facebook">Classmates:</label>
+   <div><input type="checkbox" class="checkbox" id="autoalign" name="Facebook"></div>
+   <div class="clear"></div>
+  
+   <label for="twitter">Professor:</label>
+   <div><input type="checkbox" class="checkbox" id="autoalign" name="Twitter"></div>
+   <div class="clear"></div>
+  
+   <label for="emailmessage">Advertisement:</label>
+   <div><input type="checkbox" class="checkbox" id="autoalign" name="Email Message"></div>
+   <div class="clear"></div>
+    
+    <h2>Thank you for completing the application!</h2>
+    <input type="submit" name="button" id="button" value="Submit">
+    <input type="reset" name="reset" id="reset"> 
+</form>
+    <footer>
+    (c) 2020 Dominique Perry
+    
+</footer>
+    
+</body>
+</html>

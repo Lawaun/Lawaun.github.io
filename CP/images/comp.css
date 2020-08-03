@@ -1,0 +1,73 @@
+body{
+    width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+    
+
+    background: white;
+    border-style: solid;
+
+    
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0 4px 4px #000;
+    
+}
+
+#logo {
+    float left;
+    
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+header {
+    background-image: linear-gradient(purple, #17C9DE);
+}
+
+#cook {
+    width: 750px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 35px;
+    background-color: black;
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: ;
+}
+
+
+aside {
+    float: left;
+    width: 160px;
+    height: 600px;
+    padding-right: 1em;
+}
+
+a {
+    color: aqua;
+}
+
+a:hover {
+    color: purple;
+}
+
+footer {
+    text-align: center;
+}
+
+html {
+    background-image: url();
+    background-repeat: repeat;
+}
