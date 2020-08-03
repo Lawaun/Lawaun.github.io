@@ -1,0 +1,159 @@
+body {
+    margin: auto;
+    font-family: sans-serif;
+    
+    width: 800px;
+    background: white;
+    border-style: solid;
+
+    
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0 4px 4px #000;
+    
+}
+
+h1 {
+    text-align: left;
+    text-indent: 5%;
+    font-size: 35px;
+    
+}
+
+h2:first-letter {
+    font-size: 45px;
+    padding: 15px;
+    
+}
+
+img {
+    float:left;
+    
+
+}
+
+h3 {
+    text-indent: 5%;
+    font-size: 20px;
+}
+
+a {
+    color: orange;
+    font-weight: bold;
+    float: left;
+}
+
+a:hover{
+    color: green;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+    
+    border-top: solid black;
+    
+    background: linear-gradient(45deg, black, orange, white);
+    
+    padding-top: 25px;
+}
+
+html {
+    background-image: url(images/bats.gif);
+    background-repeat: repeat;
+}
+
+header {
+    border-bottom:  2px solid black;
+    background: linear-gradient(45deg, white, orange, black);
+}
+
+h5 {
+    font-size: 17px; 
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    padding: 15px;
+}
+
+aside {
+    float: left;
+    width: 160px;
+    height: 600px;
+    padding-right: 1em;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 35px;
+}
+
+.topnav a:hover {
+  background-color: gray;
+  color: ;
+}
+
+.topnav a.active {
+  background-color:#333;
+  color: orange;
+}
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+img1{
+    float right: auto;
+}
+
+#list {
+    border: solid black;
+    background-color: darkgray;
+    padding-right: 69px;
+    margin-bottom: 0.5em;
+    
+    
+
+}
+
+#wish {
+    border: solid black;
+    background-color: darkgray;
+    padding: 15px;
+    margin-bottom: 0.5em;
+    padding-right: 23px
+}
+
+#lost {
+    border: solid black;
+    background-color: darkgray;
+    padding:5px;
+    margin-bottom: 0.5em;
+}
+
+#lamb {
+    width: 108px;
+	margin-bottom: 0.5em;
+	border: 2px solid black;
+	padding: 0;
+    background-color: darkgray;
+    padding-right: 5px;
+}
+
+li{
+    list-style-type: none;
+}
